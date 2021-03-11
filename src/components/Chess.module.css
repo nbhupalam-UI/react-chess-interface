@@ -1,0 +1,27 @@
+.BoardContainer {
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cell.highlight {
+  background-color: black;
+  color: white;
+}
